@@ -57,7 +57,7 @@ span{
 		float: left;
 	}
 }
-@media (min-width: 768px) and (max-height: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .md-6{
     	width: 50%;
     	float: left;
