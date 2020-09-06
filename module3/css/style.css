@@ -1,7 +1,42 @@
-.row{
-	margin-bottom: 15px;
+body{
+	font-size: 16px;
+	color: white;
+	background-color: maroon;
+	font-style: oxygen;
 }
-.row > div {
-	border: 2px solid black;
+#p{
 	background-color: orange;
+}
+
+#header-nav{
+	background-color: yellow;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+button{
+	height: 50px;
+	width: 50px;
+	border: 1px solid maroon;
+	float: right;
+}
+#nav-list{
+	text-align: center;
+}
+
+ul li{
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid maroon;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
 }
